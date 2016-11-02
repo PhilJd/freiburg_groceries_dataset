@@ -22,12 +22,13 @@ def compile_analysis_tool():
 def download_caffemodel_ifneeded():
     # Requires bvlc_reference.caffemodel; download if it doesn't exist
     relative_model_path = ("models/bvlc_reference_caffenet/")
-    weights_path = os.path.join(CAFFE_ROOT, relative_model_path,
+    model_path = os.path.join(CAFFE_ROOT, relative_model_path)
+    weights_path = os.path.join(model_path,
                                 "bvlc_reference_caffenet.caffemodel")
     if not os.path.isfile(weights_path):
         downloadtool = os.path.join(CAFFE_ROOT,
                                     "scripts/download_model_binary.py")
-        call("python", downloadtool, relative_model_path)
+        call(["python2", downloadtool, model_path])
 
 
 if __name__ == "__main__":
