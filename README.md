@@ -5,16 +5,18 @@ The paper can be found here: link
 ## Example images:
 ![Example images](figures/examples.png?raw=true "Example Images")
 ## Download the Dataset and Setup the Evaluation
-You can download the dataset with
-python download_dataset.py
+You can download the dataset with <br>
+`python download_dataset.py`
 
-Edit `settings.py` and specify the path to your caffe installation,
+Then, edit `settings.py` and specify the path to your caffe installation,
 your cuda path and the gpu to use.
 
-Required libraries for the installation: caffe, cuda, boost, python3, numpy
-The evaluation is partly written in C++ and can be built with 
-'python install.py'
-This also downloads the bvlc_reference model we use for finetuning. Make sure you are 
+To install the evluation software the following libraries are required: caffe, cuda, boost, python3, numpy.
+The evaluation software is partly written in C++. To clone the repo and build it run <br>
+`[user@machine folder] git clone https://github.com/PhilJd/freiburg_groceries_dataset.git` <br>
+`[user@machine folder] cd freiburg_groceries_dataset/src` <br>
+`[user@machine src] python install.py`<br>
+This also downloads the bvlc_reference model we use for finetuning, if necessary. Make sure you are 
 in the src directory, as all paths are relative from there.
 
 ## Train
