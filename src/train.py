@@ -86,8 +86,8 @@ def evaluate_mean():
         accuracy_mats.append(np.genfromtxt(accuracy_mat_path,
                                            usecols=(1,),
                                            delimiter=';'))
-    export_np_mat_with_header(np.mean(confusion_mats, axis=0) * 100,
-                              np.std(confusion_mats, axis=0) * 100,
+    export_np_mat_with_header(np.mean(confusion_mats, axis=0),
+                              np.std(confusion_mats, axis=0),
                               "../results/0/confusion_matrix.csv",
                               "../results/mean_confusion_matrix.csv", 1, 1)
     export_np_mat_with_header(np.mean(accuracy_mats, axis=0),
