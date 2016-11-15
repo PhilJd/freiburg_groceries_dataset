@@ -28,10 +28,5 @@ computing the accuracy for each class and producing a confusion matrix.
 It also links the misclassified images for each class and names them to contain
 the class they were confused with.
 
-## Baseline Results
-
-
-## Examples for Misclassified Packages
-
 ## Some Examples for all Classes
 ![Class overview images](figures/class_overview.png?raw=true "Class Overview Images")
