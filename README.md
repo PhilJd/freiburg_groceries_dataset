@@ -1,5 +1,5 @@
 # The Freiburg Groceries Dataset
-The Freiburg groceries dataset consists of 5000 256x256 RGB images of 25 food classes. Examples for each class can be found below. The paper can be found [here](http://ais.informatik.uni-freiburg.de/publications/papers/jund16groceries.pdf) and the dataset [here](http://www2.informatik.uni-freiburg.de/~eitel/freiburg_groceries_dataset.html).
+The Freiburg Groceries Dataset consists of 5000 256x256 RGB images of 25 food classes. Examples for each class can be found below. The paper can be found [here](http://ais.informatik.uni-freiburg.de/publications/papers/jund16groceries.pdf) and the dataset [here](http://www2.informatik.uni-freiburg.de/~eitel/freiburg_groceries_dataset.html).
 
 ## Example images:
 ![Example images](figures/examples.png?raw=true "Example Images")
