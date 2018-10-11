@@ -2,7 +2,7 @@ from subprocess import call
 import os
 from urllib.request import urlretrieve
 
-dataset_url = "http://www2.informatik.uni-freiburg.de/~eitel/" \
+dataset_url = "http://aisdatasets.informatik.uni-freiburg.de/" \
               "freiburg_groceries_dataset/freiburg_groceries_dataset.tar.gz"
 
 if __name__ == "__main__":
